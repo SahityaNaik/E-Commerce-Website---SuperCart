@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root {
+    --main-bg-color: #008b64;
+  }
+  
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: "Lato", sans-serif;
+}
+
+ nav{
+    display:flex;
+ }
+
+ .logo{
+    display: flex;
+    align-items: center;
+   
+ }
+
+ .logo img{
+    width:80px;
+    padding:0 10px;
+ }
+
+nav ul{
+    height:60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 28px;
+    border-radius: 5px;
+    margin: 0 16px 0 38px;
+    padding:0 12px;
+}
+
+.btn{
+  padding: 3px 10px;
+  color: white;
+  background: var(--main-bg-color);
+  border: 2px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  
+}
+
+.btn:hover{
+    font-weight: bold;
+}
+
+
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+
+ .slider{
+    display: flex;
+    margin: auto;
+    width: 85vw;
+    margin:12px auto;
+ }
+
+ 
+
+ .card{
+    max-width: 90vw;
+    margin: 35px auto;
+    font-family: "Ubuntu", sans-serif;
+ }
+
+ .cards{
+    display:flex;
+    overflow: hidden;
+ }
+
+ .card-item{
+    display: inline-flex;
+    justify-content:center;
+    flex-direction: column;
+    margin:0 auto;
+    border:1px solid grey;
+    border-radius:3px;
+    padding:4px 6px;    
+ }
+
+ .card-item:hover{
+    background-color: lightgray;
+ }
+
+ .card h3{
+    font-family: "Lato", sans-serif;
+ }
+
+ footer{
+    height:12vh;
+    background-color: var(--main-bg-color);
+    color:white;
+    font-family: "Lato", sans-serif;
+ }
