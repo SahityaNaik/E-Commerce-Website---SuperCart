@@ -15,11 +15,11 @@ Super Cart is a responsive, static e-commerce website built using HTML and CSS. 
 ## Screenshots
 ### Homepage
 
-![Home Page Screenshot](Images/Home Page.png)  
+![Home Page Screenshot](Images/Home-Page.png)  
 
 ### Product Categories  
 
-![Product Section Screenshot](Images/Product Categories.png)
+![Product Section Screenshot](Images/Product-Categories.png)
 
 
 
