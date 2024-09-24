@@ -1,7 +1,7 @@
 # Super Cart - E-commerce Website
 
 ## Overview
-Super Cart is a responsive, static e-commerce website built using HTML and CSS. This project focuses on the frontend design, showcasing various products across different categories like Electronics, Fashion, Toys, and more. The goal of this project is to create a visually appealing and user-friendly interface for an online shopping platform.
+Super Cart is a responsive e-commerce website built using HTML and CSS. This project focuses on the frontend design, showcasing various products across different categories like Electronics, Fashion, Toys, and more. The goal of this project is to create a visually appealing and user-friendly interface for an online shopping platform.
 
 ## Features
  **Responsive Design**: Works seamlessly on both desktop and mobile devices.  
@@ -15,7 +15,7 @@ Super Cart is a responsive, static e-commerce website built using HTML and CSS. 
 ## Screenshots
 ### Homepage
 
-![Home Page Screenshot](Images/HomePage.png)  
+![Home Page Screenshot](Images/Home-Page.png)  
 
 ### Product Categories  
 
